@@ -12,7 +12,7 @@ public class Recipient implements Runnable {
     @Override
     public void run() {
         synchronized (list) {
-            list.set(0,"I process information");
+            list.set(0, "I process information");
         }
     }
 }

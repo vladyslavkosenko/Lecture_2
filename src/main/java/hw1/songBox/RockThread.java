@@ -2,7 +2,7 @@ package hw1.songBox;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class RockThread implements Runnable{
+public class RockThread implements Runnable {
     @Override
     public void run() {
         int inc = 0;

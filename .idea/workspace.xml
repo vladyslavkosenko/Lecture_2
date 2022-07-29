@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668db006-6185-4282-b179-a893fd445dde" name="Changes" comment="Did the second job">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Recipient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/ChansonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/ChansonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/Main.java" afterDir="false" />
+    <list default="true" id="668db006-6185-4282-b179-a893fd445dde" name="Changes" comment="Completed the third task">
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Recipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Recipient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/AmbientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/AmbientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/CopyOnWriteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/CopyOnWriteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/RockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/RockThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/TechnoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/TechnoThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658937014469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed the third task">
+      <created>1659105206778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659105206778</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +196,7 @@
     <MESSAGE value="created a project" />
     <MESSAGE value="Did the first job" />
     <MESSAGE value="Did the second job" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did the second job" />
+    <MESSAGE value="Completed the third task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the third task" />
   </component>
 </project>
