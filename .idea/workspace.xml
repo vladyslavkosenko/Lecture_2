@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668db006-6185-4282-b179-a893fd445dde" name="Changes" comment="Did the first job">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/Main.java" afterDir="false" />
+    <list default="true" id="668db006-6185-4282-b179-a893fd445dde" name="Changes" comment="Did the second job">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw1/recipientProducer/Recipient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/fireDepartment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/fireDepartment/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/AmbientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/AmbientThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/ChansonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/ChansonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/CopyOnWriteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/CopyOnWriteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/JazzThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/JazzThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/RockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/RockThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/TechnoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/TechnoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw1/songBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw1/songBox/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +54,31 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw1.recipientProducer" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.hw1.songBox.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw1.Main" />
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw1.recipientProducer.Counter" />
       <module name="Cursor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw1.recipientProducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSafeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw1.fireDepartment.ThreadSafeArrayList" />
+      <module name="Cursor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw1.fireDepartment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +92,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw1.fireDepartment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw1.recipientProducer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw1.recipientProducer.Main" />
+      <module name="Cursor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw1.recipientProducer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +128,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.hw1.songBox.Main" />
+        <item itemvalue="Application.hw1.recipientProducer.Main" />
+        <item itemvalue="Application.ThreadSafeArrayList" />
+        <item itemvalue="Application.Counter" />
         <item itemvalue="Application.hw1.fireDepartment.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658841321269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Did the second job">
+      <created>1658937014469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658937014469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created a project" />
     <MESSAGE value="Did the first job" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did the first job" />
+    <MESSAGE value="Did the second job" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did the second job" />
   </component>
 </project>

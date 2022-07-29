@@ -12,7 +12,7 @@ public class Main {
         ambientThread.run();
         rockThread.run();
         technoThread.run();
-        var r = CopyOnWriteArray.arrayList;
-        r.forEach(System.out::println);
+        CopyOnWriteArray.arrayList.forEach(System.out::println);
+
     }
 }

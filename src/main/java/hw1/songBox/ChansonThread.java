@@ -6,7 +6,7 @@ public class ChansonThread implements Runnable{
     @Override
     public void run() {
         CopyOnWriteArrayList<String> arrayList = CopyOnWriteArray.arrayList;
-        arrayList.add("Chanson");
+        arrayList.add("Chanson" );
 
     }
 }
